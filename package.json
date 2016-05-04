@@ -42,5 +42,8 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js"
+  },
+  "dependencies": {
+    "grunt-contrib-imagemin": "^1.0.0"
   }
 }

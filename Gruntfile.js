@@ -509,7 +509,13 @@ module.exports = function (grunt) {
     'clean:dist',
     'wiredep',
     'useminPrepare',
-    'concurrent:dist',
+//     'concurrent:dist',
+    
+    'sass',
+    'copy:styles',
+    'imagemin',
+    'svgmin',
+    
     'postcss',
     'ngtemplates',
     'concat',
